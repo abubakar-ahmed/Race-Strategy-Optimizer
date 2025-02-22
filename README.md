@@ -25,12 +25,12 @@ The dataset includes various features that impact tire selection:
 
 ## Results and Comparison  
 
-| Model       | Optimizer | Regularizer | Epochs | Early Stopping | Layers | Learning Rate | Accuracy | Loss | F1-score | Precision | Recall |
-|------------|------------|-------------|--------|---------------|--------|---------------|----------|------|----------|-----------|--------|
-| Logistic Regression | N/A | L2 (0.01) | N/A | No | N/A | N/A | 0.2900 | N/A | 0.2948 | 0.2874 | 0.3464 |
-| Neural Network 1 | Adam | L2 (0.001) | 150 | Yes | 5 | 0.001 | 0.9100 | N/A | 0.9074 | 0.9154 | 0.9100 |
-| Neural Network 2 | Adam | L2 (0.001) | 150 | Yes | 5 | 0.001 | 0.9300 | N/A | 0.9215 | 0.9320 | 0.9300 |
-| Neural Network 3 | RMSprop | None | 150 | Yes | 5 | 0.005 | 0.9400 | N/A | 0.9348 | 0.9405 | 0.9400 |
+| Model       | Optimizer | Regularizer | Epochs | Early Stopping | Layers | Learning Rate | Accuracy | F1-score | Precision | Recall | Dropout |
+|------------|------------|-------------|--------|---------------|--------|---------------|----------|----------|-----------|--------|----------|
+| Logistic Regression | N/A | L2 (0.01) | N/A | No | N/A | N/A | 0.2900 | 0.2948 | 0.2874 | 0.3464 | None |
+| Neural Network 1 | Adam | None | 100 | No | 3 | 0.001 | 0.9100 | 0.9074 | 0.9154 | 0.9100 | None |
+| Neural Network 2 | Adam | L2 (0.001) | 150 | Yes | 5 | 0.01 | 0.9300 | 0.9215 | 0.9320 | 0.9300 | None |
+| Neural Network 3 | RMSprop | None | 100 | Yes | 5 | 0.005 | 0.9400 | 0.9348 | 0.9405 | 0.9400 | 0.2 |
 
 ---
 
