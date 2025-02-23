@@ -1,5 +1,7 @@
 # Race Strategy Optimizer - Tire Compound Prediction
 
+# Link to Youtube Video: https://youtu.be/SYUkSQ-9xs0
+
 ## Project Overview  
 This project focuses on optimizing race strategy by predicting the best tire compound for different track and weather conditions.  
 The goal is to build a machine learning model that helps teams choose the best tires for performance and durability.  
